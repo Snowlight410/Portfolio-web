@@ -21,7 +21,7 @@ const Sidemenu = () => {
       };
       return (
         <aside
-        className={`fixed top-0 left-0 h-full  transition-all duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full z-[100]  transition-all duration-300 ease-in-out ${
           isOpen ? 'w-48' : 'w-12'
         } bg-gray-800 text-white`}
       >
